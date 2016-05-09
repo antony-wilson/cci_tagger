@@ -1,6 +1,6 @@
 '''
 BSD Licence
-Copyright (c) 2014, Science & Technology Facilities Council (STFC)
+Copyright (c) 2016, Science & Technology Facilities Council (STFC)
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without modification,
