@@ -1,0 +1,2 @@
+SPARQLWrapper==1.7.6
+netCDF4==1.0.7

@@ -1,0 +1,2 @@
+include LICENSE
+include src/moles_esgf_tag_generation.py
