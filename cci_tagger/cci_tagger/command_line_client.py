@@ -99,8 +99,8 @@ class CCITaggerCommandLineClient(object):
         elif args.dataset is not None:
             if args.verbose >= 1:
                 print("\n%s STARTED" % (time.strftime("%H:%M:%S")))
-                print("Processing %s" % args.dataset_path)
-            datasets = set(args.dataset_path)
+                print("Processing %s" % args.dataset)
+            datasets = set([args.dataset])
         elif args.file is not None:
             if args.verbose >= 1:
                 print("\n%s STARTED" % (time.strftime("%H:%M:%S")))
@@ -120,7 +120,7 @@ class CCITaggerCommandLineClient(object):
 
         pds = ProcessDatasets(
             checksum=not(args.no_check_sum), verbose=args.verbose)
-        pds.process_datasets(datasets, args.file_scan_count)
+        pds.process_datasets(datasets, args.file_count)
 
         if args.verbose >= 1:
             print("%s FINISHED\n\n" % (time.strftime("%H:%M:%S")))
