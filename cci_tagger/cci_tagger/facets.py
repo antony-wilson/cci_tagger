@@ -143,7 +143,7 @@ class Facets(object):
             value = uri of the concept
 
         """
-        return self.__facets['{facet}-alt'.format(facet)]
+        return self.__facets['{}-alt'.format(facet)]
 
     def get_labels(self, facet):
         """
