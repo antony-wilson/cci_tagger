@@ -1,4 +1,3 @@
-==========
 CCI Tagger
 ==========
 
@@ -17,6 +16,7 @@ It is recommended to run this in a Python virtual environment
 Create a virtual environment::
 
   virtualenv tagger
+
 Install the code::
 
   source tagger/bin/activate
@@ -30,7 +30,7 @@ moles_esgf_tag [-h] (-f FILE | -d DATASET | -s) [--file_count FILE_COUNT] [--no_
 Tag observations. You can tag an individual dataset, or tag all the datasets
 listed in a file. By default a check sum will be produces for each file.
 
-Arguments:
+Arguments::
 
   -h, --help            show this help message and exit
 
