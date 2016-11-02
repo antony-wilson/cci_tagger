@@ -1,2 +1,4 @@
 include LICENSE
-include src/moles_esgf_tag_generation.py
+recursive-include docs *
+
+exclude README
